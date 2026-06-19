@@ -6,24 +6,23 @@ import { SiteFooter } from "@/components/site-footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Harbour Anchor Shipping — Air, Ocean & Land Logistics" },
-      { name: "description", content: "Harbour Anchor Shipping delivers air freight, ocean freight, land transport, customs clearance and ship agency services across the Gulf and worldwide." },
+      { title: "Harbour Anchor Shipping — B2B Cargo, Air, Ocean & Land" },
+      { name: "description", content: "Harbour Anchor Shipping is a Gulf-based B2B cargo partner offering air freight, ocean freight, land transport, customs clearance and ship agency across UAE, Jeddah, Massawa and Karachi." },
       { property: "og:title", content: "Harbour Anchor Shipping" },
-      { property: "og:description", content: "Tailored logistics across air, sea and land — Gulf-based, globally connected." },
+      { property: "og:description", content: "B2B cargo and freight forwarding across UAE, Jeddah, Massawa and Karachi." },
     ],
   }),
   component: Index,
 });
 
 const services = [
-  { n: "01", t: "Air Freight", d: "Tailored freight forwarding solutions backed by an extensive carrier network for time-sensitive cargo." },
-  { n: "02", t: "Ocean Freight", d: "FCL, LCL and project cargo movements across the world's major shipping lanes." },
+  { n: "01", t: "Air Freight", d: "Tailored freight forwarding solutions backed by an extensive carrier network for time-sensitive B2B cargo." },
+  { n: "02", t: "Ocean Freight", d: "FCL, LCL and project cargo movements between UAE, Jeddah, Massawa and Karachi, plus the world's major shipping lanes." },
   { n: "03", t: "Land Transport", d: "Reliable trucking and cross-border haulage that gets goods to their destination on schedule." },
-  { n: "04", t: "Door-to-Door", d: "End-to-end coordination from pick-up to final delivery — one team, one accountable line." },
-  { n: "05", t: "Customs Clearance", d: "Documentation, tariffs and regulatory compliance handled by specialists on the ground." },
-  { n: "06", t: "Port Stack Facility", d: "Competitive rates on container stacking and yard management at key Gulf terminals." },
-  { n: "07", t: "Slot Services", d: "Weekly feeder slots at reliable, transparent rates." },
-  { n: "08", t: "Ship Agency", d: "Inward/outward clearance, chandling, crew handling, bunker coordination and tug services." },
+  { n: "04", t: "Customs Clearance", d: "Documentation, tariffs and regulatory compliance handled by specialists on the ground." },
+  { n: "05", t: "Port Stack Facility", d: "Competitive rates on container stacking and yard management at key Gulf terminals." },
+  { n: "06", t: "Slot Services", d: "Weekly feeder slots at reliable, transparent rates." },
+  { n: "07", t: "Ship Agency", d: "Inward and outward clearance, chandling, crew handling, bunker coordination and tug services." },
 ];
 
 function Index() {
@@ -42,14 +41,14 @@ function Index() {
         <div className="relative z-10 max-w-4xl">
           <div className="animate-reveal flex items-center gap-4 mb-6">
             <div className="h-px w-12 bg-anchor-blue" />
-            <span className="font-mono text-xs text-anchor-blue uppercase">Gulf-based · Globally Connected</span>
+            <span className="font-mono text-xs text-anchor-blue uppercase">Gulf-based · B2B Cargo</span>
           </div>
           <h1 className="text-5xl md:text-8xl font-serif italic mb-8 leading-[0.9] animate-lock">
-            Worldwide logistics,
-            <span className="font-sans not-italic font-extrabold block text-anchor-blue">tailored to your cargo.</span>
+            B2B logistics,
+            <span className="font-sans not-italic font-extrabold block text-anchor-blue tracking-tight">tailored to your cargo.</span>
           </h1>
           <p className="max-w-xl text-white/70 text-lg leading-relaxed mb-10 animate-lock [animation-delay:100ms]">
-            Harbour Anchor moves freight across air, sea and land — a single trusted partner for door-to-door delivery, customs clearance, and ship agency in the Gulf and beyond.
+            Harbour Anchor is the middleman that moves freight across air, sea and land. One trusted partner for customs clearance, port handling and ship agency across UAE, Jeddah, Massawa and Karachi.
           </p>
           <div className="flex flex-wrap gap-4 animate-lock [animation-delay:200ms]">
             <Link to="/contact" className="bg-anchor-blue px-8 py-4 text-[11px] font-bold uppercase tracking-widest text-white hover:bg-paper hover:text-navy transition-all">
@@ -67,11 +66,11 @@ function Index() {
         <div className="grid md:grid-cols-12 gap-12 items-start">
           <div className="md:col-span-5">
             <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-4">Who We Are</span>
-            <h2 className="text-4xl md:text-5xl font-serif italic leading-tight">A trusted name in last-mile logistics.</h2>
+            <h2 className="text-4xl md:text-5xl font-serif italic leading-tight">A trusted B2B cargo partner.</h2>
           </div>
           <div className="md:col-span-7 space-y-6 text-navy/70 leading-relaxed text-lg">
-            <p>Harbour Anchor Shipping stands as a trusted leader in last-mile logistics solutions within the Gulf region. Our commitment to excellence has earned the confidence of clients across industries — from manufacturers and retailers to government agencies.</p>
-            <p>We navigate the complexities of global logistics with precision and dedication, ensuring the smooth flow of goods across air, sea, and land — every shipment, every time.</p>
+            <p>Harbour Anchor Shipping operates as the middleman for businesses moving cargo across the Gulf and the wider region. Our work earns the confidence of manufacturers, distributors and trading houses that need a partner with feet on the ground.</p>
+            <p>We navigate the complexities of global logistics with precision and dedication, keeping freight moving across air, sea and land on every shipment, every time.</p>
           </div>
         </div>
       </section>
@@ -84,7 +83,7 @@ function Index() {
             <h2 className="text-5xl font-serif italic leading-none">Explore Our Services</h2>
           </div>
           <p className="md:w-1/3 text-sm text-navy/60 leading-relaxed">
-            A complete suite of logistics services — engineered around your cargo, your timeline, and your route.
+            A focused B2B service mix, engineered around your cargo, your timeline and your route.
           </p>
         </div>
 
@@ -110,13 +109,13 @@ function Index() {
       <section className="bg-navy text-paper py-28 px-8 md:px-20">
         <span className="font-mono text-[10px] uppercase tracking-widest text-anchor-blue block mb-4">Our Features</span>
         <h2 className="text-4xl md:text-5xl font-serif italic leading-tight max-w-3xl mb-16">
-          Established in the Gulf. Serving clients all around the globe.
+          Established in the Gulf. Serving businesses across the region.
         </h2>
         <div className="grid md:grid-cols-3 gap-10">
           {[
-            { t: "Worldwide Service", d: "Connecting continents — an extensive partner network across major trade lanes." },
+            { t: "Regional Coverage", d: "Direct presence and partner networks across UAE, Jeddah, Massawa and Karachi." },
             { t: "On-Time Delivery", d: "Precision in every mile. We treat each schedule as a commitment, not a target." },
-            { t: "24/7 Support", d: "A reliable line, around the clock — real people coordinating real cargo, always." },
+            { t: "24/7 Support", d: "A reliable line around the clock. Real people coordinating real cargo, always." },
           ].map((f) => (
             <div key={f.t} className="border-t border-white/10 pt-8">
               <h3 className="font-bold uppercase tracking-widest text-sm text-anchor-blue mb-4">{f.t}</h3>
@@ -133,7 +132,7 @@ function Index() {
             <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-4">Get a Quote</span>
             <h2 className="text-4xl md:text-6xl font-serif italic leading-tight mb-6">Request a free quote today.</h2>
             <p className="text-navy/70 leading-relaxed max-w-xl">
-              Empowering your journey — seamless solutions await. Tell us where your cargo needs to go and we'll build the route.
+              Tell us where your cargo needs to go and we'll build the route.
             </p>
           </div>
           <div className="md:col-span-5 bg-navy text-paper p-10">
