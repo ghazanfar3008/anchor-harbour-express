@@ -22,7 +22,7 @@ const services = [
   { n: "04", t: "Door-to-Door", d: "End-to-end coordination from pick-up to final delivery — one team, one accountable line." },
   { n: "05", t: "Customs Clearance", d: "Documentation, tariffs and regulatory compliance handled by specialists on the ground." },
   { n: "06", t: "Port Stack Facility", d: "Competitive rates on container stacking and yard management at key Gulf terminals." },
-  { n: "07", t: "Slot Services", d: "Weekly feeder slots between Jebel Ali and Bandar Abbas at reliable, transparent rates." },
+  { n: "07", t: "Slot Services", d: "Weekly feeder slots at reliable, transparent rates." },
   { n: "08", t: "Ship Agency", d: "Inward/outward clearance, chandling, crew handling, bunker coordination and tug services." },
 ];
 

@@ -21,7 +21,7 @@ const services = [
   { t: "Door-to-Door Services", d: "A hassle-free experience from pick-up to delivery. One coordinator, one point of accountability — we make the journey as effortless as possible." },
   { t: "Customs Clearance", d: "Adherence to customs regulations and the paperwork that comes with them. Our brokerage team handles documentation, classification and clearance so your cargo keeps moving." },
   { t: "Port Stack Facility", d: "Competitive rates on stack and container-managing services. Optimise shipping costs without compromising service quality, with capacity at key Gulf terminals." },
-  { t: "Slot Services", d: "We operate feeder vessels on a weekly service routing from Jebel Ali to Bandar Abbas and vice versa. Competitive slot rates ensure reliable and efficient services between these port pairs." },
+  { t: "Slot Services", d: "Weekly feeder slots at reliable, transparent rates." },
   { t: "Ship Agency", d: "Dedicated support for precise and reliable vessel operations: inward and outward clearance, ship chandling, crew handling, bunker coordination, offshore tug/boat services and crew sign-on/off." },
 ];
 
