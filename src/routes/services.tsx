@@ -34,7 +34,7 @@ function Services() {
           <div className="h-px w-12 bg-anchor-blue" />
           <span className="font-mono text-xs text-anchor-blue uppercase">Our Services</span>
         </div>
-        <h1 className="text-5xl md:text-7xl font-serif italic leading-[0.95] max-w-4xl">
+        <h1 className="text-5xl md:text-7xl font-heading leading-[0.95] max-w-4xl">
           Logistics solutions across <span className="text-anchor-blue not-italic font-sans font-extrabold tracking-tight">air, sea and land.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-white/60 text-lg leading-relaxed">
@@ -46,7 +46,7 @@ function Services() {
         <div className="grid md:grid-cols-2 gap-1">
           {services.map((s, i) => (
             <article key={s.t} className="group relative bg-white border border-navy/5 p-10 hover:bg-navy hover:text-white transition-all duration-500 overflow-hidden">
-              <span className="absolute -right-4 -top-8 text-[10rem] font-serif opacity-[0.04] group-hover:opacity-10 transition-opacity">
+              <span className="absolute -right-4 -top-8 text-[10rem] font-heading opacity-[0.04] group-hover:opacity-10 transition-opacity">
                 {String(i + 1).padStart(2, "0")}
               </span>
               <h2 className="text-2xl font-bold mb-4 uppercase tracking-tight relative">{s.t}</h2>
@@ -57,7 +57,7 @@ function Services() {
         </div>
 
         <div className="mt-20 text-center">
-          <h3 className="font-serif italic text-3xl md:text-4xl mb-6">Not sure which service fits your cargo?</h3>
+          <h3 className="font-heading text-3xl md:text-4xl mb-6">Not sure which service fits your cargo?</h3>
           <Link to="/contact" className="inline-block bg-navy text-white px-10 py-4 text-[11px] font-bold uppercase tracking-widest hover:bg-anchor-blue transition-all">
             Talk to Our Team
           </Link>
