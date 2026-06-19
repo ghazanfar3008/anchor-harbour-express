@@ -43,9 +43,9 @@ function Index() {
             <div className="h-px w-12 bg-anchor-blue" />
             <span className="font-mono text-xs text-anchor-blue uppercase">Gulf-based · B2B Cargo</span>
           </div>
-          <h1 className="text-5xl md:text-8xl font-heading mb-8 leading-[0.9] animate-lock">
+          <h1 className="text-5xl md:text-8xl font-heading font-black tracking-tight mb-8 leading-[0.9] animate-lock">
             B2B logistics,
-            <span className="font-sans not-italic font-extrabold block text-anchor-blue tracking-tight">tailored to your cargo.</span>
+            <span className="block text-anchor-blue font-black tracking-tight">tailored to your cargo.</span>
           </h1>
           <p className="max-w-xl text-white/70 text-lg leading-relaxed mb-10 animate-lock [animation-delay:100ms]">
             Harbour Anchor is the middleman that moves freight across air, sea and land. One trusted partner for customs clearance, port handling and ship agency across UAE, Jeddah, Massawa and Karachi.
@@ -66,7 +66,7 @@ function Index() {
         <div className="grid md:grid-cols-12 gap-12 items-start">
           <div className="md:col-span-5">
             <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-4">Who We Are</span>
-            <h2 className="text-4xl md:text-5xl font-heading leading-tight">A trusted B2B cargo partner.</h2>
+            <h2 className="text-4xl md:text-5xl font-heading font-bold tracking-tight leading-tight">A trusted B2B cargo partner.</h2>
           </div>
           <div className="md:col-span-7 space-y-6 text-navy/70 leading-relaxed text-lg">
             <p>Harbour Anchor Shipping operates as the middleman for businesses moving cargo across the Gulf and the wider region. Our work earns the confidence of manufacturers, distributors and trading houses that need a partner with feet on the ground.</p>
@@ -80,7 +80,7 @@ function Index() {
         <div className="flex flex-col md:flex-row justify-between items-end gap-8 mb-16">
           <div>
             <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-4">01 / What We Offer</span>
-            <h2 className="text-5xl font-heading leading-none">Explore Our Services</h2>
+            <h2 className="text-5xl font-heading font-bold tracking-tight leading-none">Explore Our Services</h2>
           </div>
           <p className="md:w-1/3 text-sm text-navy/60 leading-relaxed">
             A focused B2B service mix, engineered around your cargo, your timeline and your route.
@@ -90,7 +90,7 @@ function Index() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-1">
           {services.map((s) => (
             <div key={s.n} className="group relative bg-white border border-navy/5 p-8 hover:bg-navy hover:text-white transition-all duration-500 overflow-hidden">
-              <span className="absolute -right-4 -top-8 text-9xl font-heading opacity-[0.04] group-hover:opacity-10 transition-opacity">{s.n}</span>
+              <span className="absolute -right-4 -top-8 text-9xl font-heading font-light opacity-[0.04] group-hover:opacity-10 transition-opacity">{s.n}</span>
               <h3 className="text-lg font-bold mb-3 uppercase tracking-tight relative">{s.t}</h3>
               <p className="text-sm text-navy/60 group-hover:text-white/70 mb-6 relative leading-relaxed">{s.d}</p>
               <div className="h-px w-8 bg-anchor-blue group-hover:w-full transition-all duration-500" />
@@ -108,7 +108,7 @@ function Index() {
       {/* Features */}
       <section className="bg-navy text-paper py-28 px-8 md:px-20">
         <span className="font-mono text-[10px] uppercase tracking-widest text-anchor-blue block mb-4">Our Features</span>
-        <h2 className="text-4xl md:text-5xl font-heading leading-tight max-w-3xl mb-16">
+        <h2 className="text-4xl md:text-5xl font-heading font-bold tracking-tight leading-tight max-w-3xl mb-16">
           Established in the Gulf. Serving businesses across the region.
         </h2>
         <div className="grid md:grid-cols-3 gap-10">
@@ -130,14 +130,14 @@ function Index() {
         <div className="grid md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-7">
             <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-4">Get a Quote</span>
-            <h2 className="text-4xl md:text-6xl font-heading leading-tight mb-6">Request a free quote today.</h2>
+            <h2 className="text-4xl md:text-6xl font-heading font-bold tracking-tight leading-tight mb-6">Request a free quote today.</h2>
             <p className="text-navy/70 leading-relaxed max-w-xl">
               Tell us where your cargo needs to go and we'll build the route.
             </p>
           </div>
           <div className="md:col-span-5 bg-navy text-paper p-10">
             <span className="font-mono text-[10px] uppercase tracking-widest text-anchor-blue block mb-2">Call for any query</span>
-            <p className="font-heading text-3xl mb-6">sales@harbouranchor.com</p>
+            <p className="font-heading font-light text-3xl mb-6">sales@harbouranchor.com</p>
             <Link to="/contact" className="inline-block bg-anchor-blue px-8 py-4 text-[11px] font-bold uppercase tracking-widest text-white hover:bg-paper hover:text-navy transition-all">
               Start a Conversation
             </Link>
