@@ -9,7 +9,7 @@ export const Route = createFileRoute("/contact")({
       { title: "Contact — Harbour Anchor Shipping" },
       { name: "description", content: "Request a free quote or speak with the Harbour Anchor logistics team. Email sales@harbouranchor.com or info@harbouranchor.com." },
       { property: "og:title", content: "Contact Harbour Anchor" },
-      { property: "og:description", content: "Request a free quote. Empowering your journey — seamless solutions await." },
+      { property: "og:description", content: "Request a free quote from Harbour Anchor Shipping." },
     ],
   }),
   component: Contact,
