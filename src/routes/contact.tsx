@@ -37,8 +37,8 @@ function Contact() {
           <div className="h-px w-12 bg-anchor-blue" />
           <span className="font-mono text-xs text-anchor-blue uppercase">Get a Quote</span>
         </div>
-        <h1 className="text-5xl md:text-7xl font-heading leading-[0.95] max-w-4xl">
-          Request a <span className="text-anchor-blue not-italic font-sans font-extrabold">free quote.</span>
+        <h1 className="text-5xl md:text-7xl font-heading font-black tracking-tight leading-[0.95] max-w-4xl">
+          Request a <span className="text-anchor-blue font-black tracking-tight">free quote.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-white/60 text-lg leading-relaxed">
           Tell us about your cargo and we'll respond with a route, a rate and a real person to coordinate it.
@@ -51,7 +51,7 @@ function Contact() {
           <aside className="md:col-span-5 space-y-10">
             <div>
               <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-2">Call for any query</span>
-              <p className="font-heading text-3xl md:text-4xl">Let's talk cargo.</p>
+              <p className="font-heading font-light text-3xl md:text-4xl">Let's talk cargo.</p>
             </div>
 
             <div className="space-y-6">
@@ -80,7 +80,7 @@ function Contact() {
           <div className="md:col-span-7">
             {submitted ? (
               <div className="bg-navy text-paper p-12">
-                <h2 className="font-heading text-3xl mb-4">Thank you.</h2>
+                <h2 className="font-heading font-bold tracking-tight text-3xl mb-4">Thank you.</h2>
                 <p className="text-white/70 leading-relaxed">
                   Your request has been received. A member of our team will be in touch shortly at the email you provided.
                 </p>
