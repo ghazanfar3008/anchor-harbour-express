@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Harbour Anchor Shipping — Reliable. Precise. Global." },
+      { title: "Harbour Anchor Shipping — B2B Cargo & Freight Forwarding" },
       { name: "description", content: "Harbour Anchor Shipping is a Gulf-based B2B cargo partner moving freight by air, sea and land across UAE, Jeddah, Massawa and Karachi." },
       { name: "author", content: "Harbour Anchor Shipping" },
       { property: "og:title", content: "Harbour Anchor Shipping" },
