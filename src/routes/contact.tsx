@@ -19,7 +19,6 @@ const serviceOptions = [
   "Air Freight",
   "Ocean Freight",
   "Land Transport",
-  "Door-to-Door Services",
   "Customs Clearance",
   "Port Stack Facility",
   "Slot Services",
