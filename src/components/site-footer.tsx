@@ -8,7 +8,7 @@ export function SiteFooter() {
         <div className="md:col-span-2">
           <div className="flex items-center gap-3 mb-6">
             <img src={logo} alt="" className="h-11 w-11 object-contain" />
-            <h2 className="font-heading text-3xl">Harbour Anchor</h2>
+            <h2 className="font-heading font-bold tracking-tight text-3xl">Harbour Anchor</h2>
           </div>
           <p className="text-white/40 max-w-sm text-sm leading-relaxed">
             A Gulf-based B2B cargo partner moving freight by air, sea and land across UAE, Jeddah, Massawa and Karachi.
