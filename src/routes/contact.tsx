@@ -41,7 +41,7 @@ function Contact() {
           Request a <span className="text-anchor-blue not-italic font-sans font-extrabold">free quote.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-white/60 text-lg leading-relaxed">
-          Empowering your journey — seamless solutions await. Tell us about your cargo and we'll respond with a route, a rate and a real person to coordinate it.
+          Tell us about your cargo and we'll respond with a route, a rate and a real person to coordinate it.
         </p>
       </section>
 
