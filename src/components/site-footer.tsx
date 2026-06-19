@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-white.png";
 
 export function SiteFooter() {
   return (
@@ -7,11 +7,11 @@ export function SiteFooter() {
       <div className="grid md:grid-cols-4 gap-12 mb-16">
         <div className="md:col-span-2">
           <div className="flex items-center gap-3 mb-6">
-            <img src={logo} alt="" className="h-10 w-10 object-contain bg-paper rounded-sm p-0.5" />
+            <img src={logo} alt="" className="h-11 w-11 object-contain" />
             <h2 className="font-serif italic text-3xl">Harbour Anchor</h2>
           </div>
           <p className="text-white/40 max-w-sm text-sm leading-relaxed">
-            A trusted partner in last-mile logistics across the Gulf and beyond — moving cargo across air, sea, and land with precision and dedication.
+            A Gulf-based B2B cargo partner moving freight by air, sea and land across UAE, Jeddah, Massawa and Karachi.
           </p>
         </div>
         <div>

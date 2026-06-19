@@ -6,23 +6,22 @@ export const Route = createFileRoute("/services")({
   head: () => ({
     meta: [
       { title: "Services — Harbour Anchor Shipping" },
-      { name: "description", content: "Air freight, ocean freight, land transport, door-to-door, customs clearance, port stack, slot services and ship agency from Harbour Anchor." },
+      { name: "description", content: "Air freight, ocean freight, land transport, customs clearance, port stack, slot services and ship agency from Harbour Anchor." },
       { property: "og:title", content: "Harbour Anchor Services" },
-      { property: "og:description", content: "A complete suite of air, sea and land logistics services." },
+      { property: "og:description", content: "A focused B2B suite of air, sea and land logistics services." },
     ],
   }),
   component: Services,
 });
 
 const services = [
-  { t: "Air Freight", d: "Our team ensures smooth cargo movement with tailored freight-forwarding solutions. Trust in our extensive carrier network and expertise to provide seamless air transportation for urgent, high-value or oversized consignments." },
-  { t: "Ocean Freight", d: "Sail with confidence. We handle FCL, LCL, breakbulk and project cargo across the world's principal trade lanes, with dedicated specialists managing every bill of lading." },
-  { t: "Land Transport", d: "Seamless land transport solutions across the Gulf and beyond. Our trucking partners and cross-border haulage networks make sure goods arrive efficiently and on time." },
-  { t: "Door-to-Door Services", d: "A hassle-free experience from pick-up to delivery. One coordinator, one point of accountability — we make the journey as effortless as possible." },
+  { t: "Air Freight", d: "Our team ensures smooth cargo movement with tailored freight-forwarding solutions. Trust an extensive carrier network and seasoned coordinators for urgent, high-value or oversized B2B consignments." },
+  { t: "Ocean Freight", d: "Sail with confidence. We handle FCL, LCL, breakbulk and project cargo across the world's principal trade lanes, with regular movements between UAE, Jeddah, Massawa and Karachi." },
+  { t: "Land Transport", d: "Seamless land transport solutions across the Gulf. Trucking partners and cross-border haulage networks make sure goods arrive efficiently and on time." },
   { t: "Customs Clearance", d: "Adherence to customs regulations and the paperwork that comes with them. Our brokerage team handles documentation, classification and clearance so your cargo keeps moving." },
   { t: "Port Stack Facility", d: "Competitive rates on stack and container-managing services. Optimise shipping costs without compromising service quality, with capacity at key Gulf terminals." },
   { t: "Slot Services", d: "Weekly feeder slots at reliable, transparent rates." },
-  { t: "Ship Agency", d: "Dedicated support for precise and reliable vessel operations: inward and outward clearance, ship chandling, crew handling, bunker coordination, offshore tug/boat services and crew sign-on/off." },
+  { t: "Ship Agency", d: "Dedicated support for precise and reliable vessel operations: inward and outward clearance, ship chandling, crew handling, bunker coordination, offshore tug and boat services and crew sign-on or sign-off." },
 ];
 
 function Services() {
@@ -36,7 +35,7 @@ function Services() {
           <span className="font-mono text-xs text-anchor-blue uppercase">Our Services</span>
         </div>
         <h1 className="text-5xl md:text-7xl font-serif italic leading-[0.95] max-w-4xl">
-          Logistics solutions across <span className="text-anchor-blue not-italic font-sans font-extrabold">air, sea and land.</span>
+          Logistics solutions across <span className="text-anchor-blue not-italic font-sans font-extrabold tracking-tight">air, sea and land.</span>
         </h1>
         <p className="mt-8 max-w-2xl text-white/60 text-lg leading-relaxed">
           From a single air-freight booking to full ship-agency support, every service is delivered by specialists who know the route, the regulations and the risk.

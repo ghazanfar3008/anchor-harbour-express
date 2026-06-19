@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import logo from "@/assets/logo.png";
+import logo from "@/assets/logo-white.png";
 
 const links = [
   { to: "/", label: "Home" },
@@ -12,7 +12,7 @@ export function SiteNav() {
   return (
     <nav className="fixed top-0 w-full z-50 flex items-center justify-between px-6 md:px-10 py-4 backdrop-blur-md bg-navy-deep/50 border-b border-white/5">
       <Link to="/" className="flex items-center gap-3">
-        <img src={logo} alt="Harbour Anchor Shipping" className="h-9 w-9 object-contain bg-paper rounded-sm p-0.5" />
+        <img src={logo} alt="Harbour Anchor Shipping" className="h-10 w-10 object-contain" />
         <span className="font-serif text-xl md:text-2xl tracking-tight italic text-paper">Harbour Anchor</span>
       </Link>
       <div className="hidden md:flex gap-8 text-[10px] font-semibold uppercase tracking-[0.2em] text-white/60">

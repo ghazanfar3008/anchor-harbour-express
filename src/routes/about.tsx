@@ -7,9 +7,9 @@ export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
       { title: "About — Harbour Anchor Shipping" },
-      { name: "description", content: "Harbour Anchor Shipping is a Gulf-based logistics company moving cargo across air, sea and land for clients around the world." },
+      { name: "description", content: "Harbour Anchor Shipping is a Gulf-based B2B cargo partner moving freight across air, sea and land for businesses around the region." },
       { property: "og:title", content: "About Harbour Anchor" },
-      { property: "og:description", content: "A trusted name in last-mile logistics across the Gulf and beyond." },
+      { property: "og:description", content: "A trusted B2B cargo and freight-forwarding partner across the Gulf." },
       { property: "og:image", content: heroShip },
     ],
   }),
@@ -32,10 +32,10 @@ function About() {
             <span className="font-mono text-xs text-anchor-blue uppercase">About Us</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-serif italic leading-[0.95] mb-8">
-            Navigating complexity with <span className="text-anchor-blue not-italic font-sans font-extrabold">precision and dedication.</span>
+            Navigating complexity with <span className="text-anchor-blue not-italic font-sans font-extrabold tracking-tight">precision and dedication.</span>
           </h1>
           <p className="max-w-2xl text-white/70 text-lg leading-relaxed">
-            Harbour Anchor Shipping was established in the Gulf and has gone on to serve clients all around the globe — moving cargo across air, sea and land with the discipline of a specialist crew.
+            Harbour Anchor Shipping was established in the Gulf and has gone on to serve businesses across the region, moving cargo across air, sea and land with the discipline of a specialist crew.
           </p>
         </div>
       </section>
@@ -44,12 +44,12 @@ function About() {
         <div className="grid md:grid-cols-12 gap-12">
           <div className="md:col-span-4">
             <span className="font-mono text-[10px] uppercase tracking-widest text-navy/40 block mb-4">Our Story</span>
-            <h2 className="text-4xl font-serif italic leading-tight">A trusted leader in last-mile logistics.</h2>
+            <h2 className="text-4xl font-serif italic leading-tight">A trusted B2B cargo partner.</h2>
           </div>
           <div className="md:col-span-8 space-y-6 text-navy/70 leading-relaxed text-lg">
-            <p>Harbour Anchor stands as a trusted leader in last-mile logistics solutions within the Gulf region. With a commitment to excellence, we have earned the confidence of our clients through reliable and efficient services.</p>
-            <p>Our comprehensive range of offerings includes Air Freight, Ocean Freight, Land Transport, Door-to-Door Services, Customs Clearance, Port Stack Facility, Slot Services, and Ship Agency Services. As a beacon in the logistics industry, we take pride in delivering seamless and tailored solutions to meet the diverse needs of our valued customers.</p>
-            <p>At Harbour Anchor, we navigate the complexities of global logistics with precision and dedication, ensuring the smooth flow of goods across air, sea, and land.</p>
+            <p>Harbour Anchor stands as a reliable B2B logistics partner in the Gulf region. With a commitment to excellence, we have earned the confidence of our clients through dependable and efficient services.</p>
+            <p>Our offering covers Air Freight, Ocean Freight, Land Transport, Customs Clearance, Port Stack Facility, Slot Services and Ship Agency Services. We act as the middleman between cargo owners and carriers, delivering tailored solutions across UAE, Jeddah, Massawa and Karachi.</p>
+            <p>At Harbour Anchor, we navigate the complexities of global logistics with precision and dedication, ensuring the smooth flow of goods across air, sea and land.</p>
           </div>
         </div>
       </section>
@@ -57,12 +57,12 @@ function About() {
       <section className="bg-navy text-paper py-28 px-8 md:px-20">
         <div className="grid md:grid-cols-3 gap-12">
           {[
-            { t: "Worldwide Service", d: "Connecting continents, delivering on commitments — wherever your cargo needs to land." },
-            { t: "On-Time Delivery", d: "Precision in every mile. Every schedule is a promise we plan around." },
-            { t: "24/7 Telephone Support", d: "Always by your side, around the clock — a reliable lifeline for time-critical freight." },
+            { n: "01", t: "Regional Coverage", d: "Connecting UAE, Jeddah, Massawa and Karachi, with onward links to the global trade network." },
+            { n: "02", t: "On-Time Delivery", d: "Precision in every mile. Every schedule is a promise we plan around." },
+            { n: "03", t: "24/7 Telephone Support", d: "Always by your side, around the clock. A reliable lifeline for time-critical freight." },
           ].map((f) => (
             <div key={f.t}>
-              <div className="text-5xl font-serif italic text-anchor-blue mb-4">0{["1","2","3"][["Worldwide Service","On-Time Delivery","24/7 Telephone Support"].indexOf(f.t)]}</div>
+              <div className="text-5xl font-serif italic text-anchor-blue mb-4">{f.n}</div>
               <h3 className="font-bold uppercase tracking-widest text-sm mb-3">{f.t}</h3>
               <p className="text-white/60 leading-relaxed">{f.d}</p>
             </div>
